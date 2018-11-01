@@ -64,6 +64,5 @@ D:\Hassan\Hassan Ok\MyProjects\ClothBazar\ClothBazar.Web\bin\Microsoft.Owin.Secu
 D:\Hassan\Hassan Ok\MyProjects\ClothBazar\ClothBazar.Web\bin\Microsoft.Owin.Security.Google.xml
 D:\Hassan\Hassan Ok\MyProjects\ClothBazar\ClothBazar.Web\bin\Microsoft.Owin.Security.Twitter.xml
 D:\Hassan\Hassan Ok\MyProjects\ClothBazar\ClothBazar.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-D:\Hassan\Hassan Ok\MyProjects\ClothBazar\ClothBazar.Web\obj\Debug\ClothBazar.Web.csprojResolveAssemblyReference.cache
 D:\Hassan\Hassan Ok\MyProjects\ClothBazar\ClothBazar.Web\obj\Debug\ClothBazar.Web.dll
 D:\Hassan\Hassan Ok\MyProjects\ClothBazar\ClothBazar.Web\obj\Debug\ClothBazar.Web.pdb

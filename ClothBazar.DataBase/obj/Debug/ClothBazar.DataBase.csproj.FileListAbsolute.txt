@@ -1,0 +1,14 @@
+D:\Hassan\Hassan Ok\MyProjects\ClothBazar\ClothBazar.DataBase\bin\Debug\ClothBazar.DataBase.dll.config
+D:\Hassan\Hassan Ok\MyProjects\ClothBazar\ClothBazar.DataBase\bin\Debug\ClothBazar.DataBase.dll
+D:\Hassan\Hassan Ok\MyProjects\ClothBazar\ClothBazar.DataBase\bin\Debug\ClothBazar.DataBase.pdb
+D:\Hassan\Hassan Ok\MyProjects\ClothBazar\ClothBazar.DataBase\bin\Debug\ClothBazar.Entities.dll
+D:\Hassan\Hassan Ok\MyProjects\ClothBazar\ClothBazar.DataBase\bin\Debug\EntityFramework.dll
+D:\Hassan\Hassan Ok\MyProjects\ClothBazar\ClothBazar.DataBase\bin\Debug\EntityFramework.SqlServer.dll
+D:\Hassan\Hassan Ok\MyProjects\ClothBazar\ClothBazar.DataBase\bin\Debug\ClothBazar.Entities.pdb
+D:\Hassan\Hassan Ok\MyProjects\ClothBazar\ClothBazar.DataBase\bin\Debug\EntityFramework.xml
+D:\Hassan\Hassan Ok\MyProjects\ClothBazar\ClothBazar.DataBase\bin\Debug\EntityFramework.SqlServer.xml
+D:\Hassan\Hassan Ok\MyProjects\ClothBazar\ClothBazar.DataBase\obj\Debug\ClothBazar.DataBase.csprojResolveAssemblyReference.cache
+D:\Hassan\Hassan Ok\MyProjects\ClothBazar\ClothBazar.DataBase\obj\Debug\ClothBazar.DataBase.dll
+D:\Hassan\Hassan Ok\MyProjects\ClothBazar\ClothBazar.DataBase\obj\Debug\ClothBazar.DataBase.pdb
+D:\Hassan\Hassan Ok\MyProjects\ClothBazar\ClothBazar.DataBase\obj\Debug\ClothBazar.DataBase.Migrations.CreateDB.resources
+D:\Hassan\Hassan Ok\MyProjects\ClothBazar\ClothBazar.DataBase\obj\Debug\ClothBazar.DataBase.csproj.GenerateResource.Cache
