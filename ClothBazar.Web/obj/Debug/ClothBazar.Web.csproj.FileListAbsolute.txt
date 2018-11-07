@@ -66,3 +66,10 @@ D:\Hassan\Hassan Ok\MyProjects\ClothBazar\ClothBazar.Web\bin\Microsoft.Owin.Secu
 D:\Hassan\Hassan Ok\MyProjects\ClothBazar\ClothBazar.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 D:\Hassan\Hassan Ok\MyProjects\ClothBazar\ClothBazar.Web\obj\Debug\ClothBazar.Web.dll
 D:\Hassan\Hassan Ok\MyProjects\ClothBazar\ClothBazar.Web\obj\Debug\ClothBazar.Web.pdb
+D:\Hassan\Hassan Ok\MyProjects\ClothBazar\ClothBazar.Web\bin\ClothBazar.Entities.dll
+D:\Hassan\Hassan Ok\MyProjects\ClothBazar\ClothBazar.Web\bin\ClothBazar.Services.dll
+D:\Hassan\Hassan Ok\MyProjects\ClothBazar\ClothBazar.Web\bin\ClothBazar.DataBase.dll
+D:\Hassan\Hassan Ok\MyProjects\ClothBazar\ClothBazar.Web\bin\ClothBazar.Entities.pdb
+D:\Hassan\Hassan Ok\MyProjects\ClothBazar\ClothBazar.Web\bin\ClothBazar.Services.pdb
+D:\Hassan\Hassan Ok\MyProjects\ClothBazar\ClothBazar.Web\bin\ClothBazar.DataBase.pdb
+D:\Hassan\Hassan Ok\MyProjects\ClothBazar\ClothBazar.Web\obj\Debug\ClothBazar.Web.csprojResolveAssemblyReference.cache

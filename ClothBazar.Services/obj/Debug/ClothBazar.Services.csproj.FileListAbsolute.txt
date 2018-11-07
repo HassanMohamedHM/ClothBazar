@@ -1,0 +1,14 @@
+D:\Hassan\Hassan Ok\MyProjects\ClothBazar\ClothBazar.Services\bin\Debug\ClothBazar.Services.dll.config
+D:\Hassan\Hassan Ok\MyProjects\ClothBazar\ClothBazar.Services\bin\Debug\ClothBazar.Services.dll
+D:\Hassan\Hassan Ok\MyProjects\ClothBazar\ClothBazar.Services\bin\Debug\ClothBazar.Services.pdb
+D:\Hassan\Hassan Ok\MyProjects\ClothBazar\ClothBazar.Services\bin\Debug\ClothBazar.DataBase.dll
+D:\Hassan\Hassan Ok\MyProjects\ClothBazar\ClothBazar.Services\bin\Debug\ClothBazar.Entities.dll
+D:\Hassan\Hassan Ok\MyProjects\ClothBazar\ClothBazar.Services\bin\Debug\EntityFramework.dll
+D:\Hassan\Hassan Ok\MyProjects\ClothBazar\ClothBazar.Services\bin\Debug\EntityFramework.SqlServer.dll
+D:\Hassan\Hassan Ok\MyProjects\ClothBazar\ClothBazar.Services\bin\Debug\ClothBazar.DataBase.pdb
+D:\Hassan\Hassan Ok\MyProjects\ClothBazar\ClothBazar.Services\bin\Debug\ClothBazar.Entities.pdb
+D:\Hassan\Hassan Ok\MyProjects\ClothBazar\ClothBazar.Services\bin\Debug\EntityFramework.xml
+D:\Hassan\Hassan Ok\MyProjects\ClothBazar\ClothBazar.Services\bin\Debug\EntityFramework.SqlServer.xml
+D:\Hassan\Hassan Ok\MyProjects\ClothBazar\ClothBazar.Services\obj\Debug\ClothBazar.Services.csprojResolveAssemblyReference.cache
+D:\Hassan\Hassan Ok\MyProjects\ClothBazar\ClothBazar.Services\obj\Debug\ClothBazar.Services.dll
+D:\Hassan\Hassan Ok\MyProjects\ClothBazar\ClothBazar.Services\obj\Debug\ClothBazar.Services.pdb

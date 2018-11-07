@@ -2,3 +2,4 @@ D:\Hassan\Hassan Ok\MyProjects\ClothBazar\ClothBazar.Entities\bin\Debug\ClothBaz
 D:\Hassan\Hassan Ok\MyProjects\ClothBazar\ClothBazar.Entities\bin\Debug\ClothBazar.Entities.pdb
 D:\Hassan\Hassan Ok\MyProjects\ClothBazar\ClothBazar.Entities\obj\Debug\ClothBazar.Entities.dll
 D:\Hassan\Hassan Ok\MyProjects\ClothBazar\ClothBazar.Entities\obj\Debug\ClothBazar.Entities.pdb
+D:\Hassan\Hassan Ok\MyProjects\ClothBazar\ClothBazar.Entities\obj\Debug\ClothBazar.Entities.csprojResolveAssemblyReference.cache

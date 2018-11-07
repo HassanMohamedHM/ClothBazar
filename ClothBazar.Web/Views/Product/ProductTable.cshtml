@@ -1,0 +1,155 @@
+﻿@model IEnumerable<ClothBazar.Entities.Product>
+
+@{
+    ViewBag.Title = "ProductTable";
+}
+
+<div class="row">
+        <div class="form-group col-md-8">
+            <input id="txtSearch" name="search" class="form-control" style="max-width:100%;" />
+        </div>
+        <div class="col-md-4">
+            <button id="btnSearch" class="btn btn-warning col-md-5 col-md-offset-1">Search &nbsp;&nbsp;&nbsp;<i class="glyphicon glyphicon-search"></i></button>
+            <button id="btnNew" class="btn btn-success col-md-5 col-md-offset-1">New&nbsp;&nbsp;&nbsp;<i class="glyphicon glyphicon-new-window"></i></button>
+        </div>
+</div>
+
+
+<table class="table table-bordered table-hover table-condensed table-striped">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Description)
+            </th>
+            <th class="text-center" style="width:100px;">
+                @Html.DisplayNameFor(model => model.Price)
+            </th >
+            <th class="text-center" style="width:150px;"></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Description)
+                </td>
+                <td class="text-center">
+                    @Html.DisplayFor(modelItem => item.Price)
+                </td>
+                <td class="text-center">
+                    <button class="btnEdit btn btn-primary" data-id="@item.ID"><i class="glyphicon glyphicon-edit"></i></button>
+                    <button class="btnDelete btn btn-danger" data-id="@item.ID"><i class="glyphicon glyphicon-remove-circle" onclick="coni"></i></button>
+                    @*@Html.ActionLink("Edit", "Edit", new { id = item.ID },new {@class= "btn btn-sm btn-primary btnEdit" ,@productID= item.ID }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.ID }, new { @class = "btn btn-sm btn-danger" , @productID = item.ID })*@
+                </td>
+            </tr>
+        }
+
+    </table>
+
+
+
+<script>
+
+    $(document).ready(function () {
+
+        $('#txtSearch').on('keypress', function (e) {
+            if (e.keyCode==13) {
+                var searchText = $("#txtSearch").val();
+                $.ajax(
+                    {
+                        type: "GET",
+                        url: '/Product/ProductTable',
+                        data: {
+                            search: searchText
+                        }
+                    }).success(function (data) {
+
+                        $("#tableContainer").html(data);
+                    })
+                .error(function (e) {
+                    alert("Fail" + e);
+                })
+            }
+
+        });
+
+        $("#btnSearch").click(function () {
+            var searchText = $("#txtSearch").val();
+            $.ajax(
+                {
+                    type: "GET",
+                    url: '/Product/ProductTable',
+                    data: {
+                        search: searchText
+                    }
+                }).success(function (data) {
+                    $("#tableContainer").html(data);
+                })
+            .error(function (e) {
+                alert("Fail");
+            })
+        });
+
+        $("#btnNew").click(function () {
+            $.ajax(
+                {
+                    type: "GET",
+                    url: '/Product/Create'
+                }).success(function (data) {
+                    $("#actionContainer").html(data);
+                    $("#modalTitle").html("Add New Product");
+                    $("#modalwrapper").modal();
+                    $("#modalwrapper").slideDown(2000);
+                }).error(function (e) {
+                    alert("Fail" + e);
+                })
+        });
+
+        $(".btnEdit").click(function () {
+            $.ajax(
+                {
+                    type: "GET",
+                    url: '/Product/Edit',
+                    data:
+                        {
+                            ID: $(this).attr('data-id')
+                        }
+                }).success(function (data) {
+                    $("#actionContainer").html(data);
+                    $("#modalTitle").html("Edit Product");
+                    $("#modalwrapper").modal();
+                    $("#modalwrapper").slideDown(2000);
+                }).error(function (e) {
+                    alert("Fail" + e);
+                })
+        });
+
+        $(".btnDelete").click(function () {
+            var confirmDelete = confirm("Are you sure to Delete this Product?");
+            if (confirmDelete) {
+                $.ajax(
+            {
+                type: "POST",
+                url: '/Product/Delete',
+                data:
+                    {
+                        ID: $(this).attr('data-id')
+                    }
+            }).success(function (data) {
+                $("#tableContainer").html(data);
+            }).error(function (e) {
+                alert("Fail" + e);
+            })
+            }
+        });
+    });
+</script>
+
+
+
